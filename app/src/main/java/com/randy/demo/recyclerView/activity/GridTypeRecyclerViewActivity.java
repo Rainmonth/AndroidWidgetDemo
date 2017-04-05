@@ -86,18 +86,17 @@ public class GridTypeRecyclerViewActivity extends AppCompatActivity {
             case R.id.id_action_delete:
                 mAdapter.removeData(1);
                 break;
-            case R.id.id_action_gridview:
+            case R.id.id_action_type_grid_view:
                 mRecyclerView.setLayoutManager(new GridLayoutManager(this, 4));
                 break;
-            case R.id.id_action_listview:
+            case R.id.id_action_type_list_view:
                 mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
                 break;
-            case R.id.id_action_horizontalGridView:
+            case R.id.id_action_type_horizontal_grid_view:
                 mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(4,
                         StaggeredGridLayoutManager.HORIZONTAL));
                 break;
-
-            case R.id.id_action_staggeredgridview:
+            case R.id.id_action_type_staggered_grid_view:
                 Intent intent = new Intent(this, StaggeredGridLayoutActivity.class);
                 startActivity(intent);
                 break;

@@ -1,40 +1,38 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.zhy.sample.demo_recyclerview.MainActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
         android:id="@+id/id_action_add"
         android:icon="@mipmap/actionbar_add_icon"
         android:orderInCategory="100"
-        android:title="add"
+        android:title="@string/action_add"
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/id_action_delete"
         android:icon="@mipmap/ic_menu_delete"
         android:orderInCategory="100"
-        android:title="delete"
+        android:title="@string/action_delete"
         app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/id_action_gridview"
+        android:id="@+id/id_action_type_grid_view"
         android:orderInCategory="100"
-        android:title="GirdView"
+        android:title="@string/action_type_gird_view"
         app:showAsAction="never" />
     <item
-        android:id="@+id/id_action_listview"
+        android:id="@+id/id_action_type_list_view"
         android:orderInCategory="100"
-        android:title="ListView"
+        android:title="@string/action_type_list_view"
         app:showAsAction="never" />
     <item
-        android:id="@+id/id_action_horizontalGridView"
+        android:id="@+id/id_action_type_horizontal_grid_view"
         android:orderInCategory="100"
-        android:title="HorizontalGridView"
+        android:title="@string/action_type_horizontal_grid_view"
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/id_action_staggeredgridview"
+        android:id="@+id/id_action_type_staggered_grid_view"
         android:orderInCategory="100"
-        android:title="StaggeredGridView"
+        android:title="@string/action_type_staggered_grid_view"
         app:showAsAction="never" />
 
 </menu>

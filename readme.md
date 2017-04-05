@@ -1,6 +1,6 @@
 # Learning of wonderful widgets
 
-## Summery
+## Summary
 
 - include surpport library widget
 - include github open source project
